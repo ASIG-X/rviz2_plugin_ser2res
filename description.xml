@@ -1,0 +1,7 @@
+<library path="rviz2_plugin_ser2res">
+  <class name="rviz2_plugin_ser2res/ser2res"
+         type="rviz2_plugin_ser2res::Service2Reset"
+         base_class_type="rviz_common::Tool">
+    <description>RViz2 plugin for resetting displays via service.</description>
+  </class>
+</library>

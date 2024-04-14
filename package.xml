@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rviz2_plugin_ser2res</name>
+  <version>0.0.0</version>
+  
+  <description>RViz2 plugin for resetting displays via service.</description>
+  <license>GPLv3</license>
+  <author>Ziyu Cao</author>
+  <author>Kailai Li</author>
+  <maintainer email="ziyu.cao@liu.se">Ziyu Cao</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+  <depend>rviz_common</depend>
+  <exec_depend>libqt5-widgets</exec_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>
