@@ -1,5 +1,5 @@
 # rviz2_plugin_ser2res
-rviz2_plugin_ser2res is a RViz plugin for resetting displays via service.
+rviz2_plugin_ser2res is a RViz plugin for resetting displays via service. This enables controllable updates of visualized messages, such as point clouds. More explanations for the usages will be provided soon.
 ## Dependencies
 Ubuntu 22.04
 
