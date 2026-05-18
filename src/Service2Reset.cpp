@@ -27,7 +27,10 @@ namespace rviz2_plugin_ser2res {
                                            const std::shared_ptr<std_srvs::srv::Empty::Request>,
                                            const std::shared_ptr<std_srvs::srv::Empty::Response>)
     {
-        this->context_->getRootDisplayGroup()->reset();
+	    auto vis_manager = dynamic_cast<rviz_common::VisualizationManager *>(this->context_);
+	    if (vis_manager != nullptr) {
+            vis_manager->resetTime();
+	    }        
     }
 
     void Service2Reset::deactivate() {}
